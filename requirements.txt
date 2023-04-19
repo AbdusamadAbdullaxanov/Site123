@@ -1,0 +1,8 @@
+pymemcache
+python-jose
+psycopg2
+bcrypt
+pillow
+django-rest-framework
+pytest-django
+locust
