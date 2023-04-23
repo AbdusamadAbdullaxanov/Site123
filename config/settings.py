@@ -82,13 +82,6 @@ TEMPLATES = [
     },
 ]
 
-CACHES = {
-    "default": {
-        "BACKEND": "django.core.cache.backends.memcached.PyMemcacheCache",
-        "LOCATION": os.environ.get('LOCATION'),
-    }
-}
-
 WSGI_APPLICATION = 'config.wsgi.application'
 
 
